@@ -1,0 +1,13 @@
+# Local environment files
+.env
+.env.*
+
+# AWS credentials and configuration
+.aws/
+credentials
+config
+
+# Temporary and editor files
+*.tmp
+*.log
+.vscode/

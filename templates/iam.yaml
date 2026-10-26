@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'IAM CloudFormation template'
+
+#Create new IAM User
+Resources:
+  MyIAMUser:
+    Type: 'AWS::IAM::User'
+    Properties:
+      UserName: 'Rob_Developer'
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/AdministratorAccess'
