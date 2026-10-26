@@ -43,3 +43,15 @@
 ### Validation
 - Pending CloudFormation template validation.
 - Deployment not yet performed.
+
+## Stage 4 - Add custom S3 policy for EC2 role
+
+### Implemented
+- Add a scoped S3 object-read policy.
+
+### Outstanding
+- Deploy and validation within AWS console.
+
+### Validation
+- Pending CloudFormation template validation.
+- Deployment not yet performed.
