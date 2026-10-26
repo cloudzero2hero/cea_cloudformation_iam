@@ -31,3 +31,15 @@
 ### Validation
 - Pending CloudFormation template validation.
 - Deployment not yet performed.
+
+## Stage 3 - Define EC2 role
+
+### Implemented
+- Define the EC2 role and trust relationship.
+
+### Outstanding
+- Add a scoped S3 object-read policy.
+
+### Validation
+- Pending CloudFormation template validation.
+- Deployment not yet performed.
