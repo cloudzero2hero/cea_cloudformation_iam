@@ -55,3 +55,15 @@
 ### Validation
 - Pending CloudFormation template validation.
 - Deployment not yet performed.
+
+## Stage 5 - Deploy template and validate on AWS
+### Implemented
+- Deploy and validation within AWS console.
+- Successfully deployed and validates within the AWS console.
+
+### Outstanding
+- None
+
+### Validation
+- Pending CloudFormation template validation.
+- Deployment not yet performed.
