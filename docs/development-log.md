@@ -17,3 +17,17 @@
 ### Validation
 - Pending CloudFormation template validation.
 - Deployment not yet performed.
+
+## Stage 2 - IAM Group and User addition
+
+### Implemented
+- Create the DeveloperGroup IAM group.
+- Add the user to the group.
+
+### Outstanding
+- Define the EC2 role and trust relationship.
+- Add a scoped S3 object-read policy.
+
+### Validation
+- Pending CloudFormation template validation.
+- Deployment not yet performed.

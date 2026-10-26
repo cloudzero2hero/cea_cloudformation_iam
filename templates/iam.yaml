@@ -9,3 +9,18 @@ Resources:
       UserName: 'Rob_Developer'
       ManagedPolicyArns:
         - 'arn:aws:iam::aws:policy/AdministratorAccess'
+
+  #My IAM Group
+  MyIAMGroup:
+    Type: 'AWS::IAM::Group'
+    Properties:
+      GroupName: 'DeveloperGroup'
+
+  #Attach User to Group
+  UserToGroup:
+    Type: 'AWS::IAM::UserToGroupAddition'
+    Properties:
+      GroupName: !Ref MyIAMGroup
+      Users:
+        - !Ref MyIAMUser
+  
